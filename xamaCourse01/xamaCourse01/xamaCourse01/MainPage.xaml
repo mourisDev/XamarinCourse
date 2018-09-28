@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xamaCourse01"
+             x:Class="xamaCourse01.MainPage">
+
+    <StackLayout BackgroundColor="#ffbf00" Padding="30" Spacing="30">
+        <Image x:Name="imgLogo" Source="CorreiosLog.png"/>
+        <Entry x:Name="txtCep" Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#ffffff"/>
+        <Button x:Name="btnBuscar" Text="Buscar CEP" TextColor="#ffffff" BackgroundColor="#00416b"/>
+        <Label x:Name="lblResult" Text="" VerticalTextAlignment="Start"/>
+        
+    </StackLayout>
+    
+</ContentPage>
